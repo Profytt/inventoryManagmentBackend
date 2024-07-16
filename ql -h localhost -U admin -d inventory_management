@@ -1,0 +1,17 @@
+                                  List of databases
+     Name     |  Owner   | Encoding | Collate |  Ctype  |     Access privileges      
+--------------+----------+----------+---------+---------+----------------------------
+ dezc3        | dezc3    | UTF8     | C.UTF-8 | C.UTF-8 | 
+ fitness-dev  | dezc3    | UTF8     | C.UTF-8 | C.UTF-8 | 
+ gamestore    | postgres | UTF8     | C.UTF-8 | C.UTF-8 | 
+ juicebox-dev | dezc3    | UTF8     | C.UTF-8 | C.UTF-8 | 
+ juicebox_dev | postgres | UTF8     | C.UTF-8 | C.UTF-8 | =Tc/postgres              +
+              |          |          |         |         | postgres=CTc/postgres     +
+              |          |          |         |         | juicebox_user=CTc/postgres
+ postgres     | postgres | UTF8     | C.UTF-8 | C.UTF-8 | 
+ template0    | postgres | UTF8     | C.UTF-8 | C.UTF-8 | =c/postgres               +
+              |          |          |         |         | postgres=CTc/postgres
+ template1    | postgres | UTF8     | C.UTF-8 | C.UTF-8 | =c/postgres               +
+              |          |          |         |         | postgres=CTc/postgres
+(8 rows)
+
