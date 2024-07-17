@@ -1,6 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
+const { Pool } = require('pg');
 require('dotenv').config();
 
 const authRoutes = require('./routes/authRoutes');
