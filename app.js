@@ -14,6 +14,15 @@ app.use(morgan('dev'));
 app.use(cors());
 app.use(express.json());
 
+// Database connection
+const pool = new Pool({
+    connectionString: process.env.DATABASE_URL,
+    ssl: {
+      rejectUnauthorized: false,
+    },
+  });
+  
+
 // Root Route
 app.get('/', (req, res) => {
     res.send('Welcome to the Inventory Management API');
